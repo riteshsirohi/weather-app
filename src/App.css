@@ -1,0 +1,72 @@
+body{
+  margin: 0;
+  padding: 0; 
+}
+.App{
+text-align: center;
+margin: 10px auto 0px;
+width: 90%;
+max-width: 700px;
+border-radius: 20px;
+height: 400px;
+padding: 20px 15px;
+background-color: rgb(0, 255, 166);
+}
+
+.search-engine{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.search-engine input{
+  width: 70%;
+  height: 45px;
+  border: 1px solid;
+  border-radius: 9px;
+  padding: 2px 15px;
+  font-size: 16px;
+  outline: none;
+  background-color: #ffffff;
+  color: #555555;
+}
+
+.search-engine button{
+  border: none;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  cursor: pointer;
+  padding: 13px 15px;
+}
+
+.temp{
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 15px;
+}
+
+.city-name{
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.date{
+  font-size: larger;
+  font-weight: bold;
+}
+
+.description{
+  font-size: 20px;
+}
+
+.weather-info{
+  font-size: 20px;
+  font-weight: 100;
+}
+
